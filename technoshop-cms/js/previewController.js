@@ -1,4 +1,4 @@
-import { form, preview, formСontrol } from './elems.js'
+import { form, preview } from './elems.js'
 import { toBase64 } from './utils.js'
 
 const showPreview = (src) => {
@@ -10,7 +10,7 @@ const showPreview = (src) => {
 export const hidePreview = () => {
 	preview.style.display = ''
 	preview.src = ''
-	formСontrol.value = ''
+	// formСontrol.value = ''
 }
 
 export const previewController = () => {
