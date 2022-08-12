@@ -10,7 +10,6 @@ const showPreview = (src) => {
 export const hidePreview = () => {
 	preview.style.display = ''
 	preview.src = ''
-	// formСontrol.value = ''
 }
 
 export const previewController = () => {
